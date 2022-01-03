@@ -20,10 +20,10 @@ client.on('messageCreate', (msg) => {
     const args = commandBody.split(' ');
     const command = args.shift().toLowerCase();
 
-    handleMessage(msg, args, command);
+    MessageHandler(msg, args, command);
 });
 
-let handleMessage = (msg, args, command) => {
+let MessageHandler = (msg, args, command) => {
     switch(command){
         case 'ping':
             msg.reply("Pong !");
@@ -31,7 +31,7 @@ let handleMessage = (msg, args, command) => {
 
         case 'reddit':
             const RedditObj = new Reddit();
-            RedditObj.handleRedditCommand(msg, args);
+            RedditObj.handleRedditCommand(msg, args, Discord);
             break;
 
         default:
