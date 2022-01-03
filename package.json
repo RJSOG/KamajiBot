@@ -1,0 +1,24 @@
+{
+  "name": "kamajibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RJSOG/KamajiBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RJSOG/KamajiBot/issues"
+  },
+  "homepage": "https://github.com/RJSOG/KamajiBot#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0"
+  }
+}
