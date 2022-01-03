@@ -2,7 +2,7 @@
   "name": "kamajibot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RJSOG/KamajiBot#readme",
   "dependencies": {
+    "@sapphire/framework": "^2.2.2",
     "axios": "^0.24.0",
     "discord.js": "^13.5.0",
     "dotenv": "^10.0.0"
