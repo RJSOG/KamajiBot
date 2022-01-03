@@ -24,10 +24,9 @@ class Reddit {
 
     getReddit = async (subreddit, listing, limit, timeframe) => {
         const redditUrl = `https://www.reddit.com/r/${subreddit}/${listing}.json?limit=${limit}&t=${timeframe}`;
-        console.log(redditUrl);
         let resp = await axios.get(redditUrl);
         const data = resp.data;
-        console.log(data.data);
+        console.log(resp.data)
     }   
 }
 
