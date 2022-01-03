@@ -35,7 +35,7 @@ let handleMessage = (msg, args, command) => {
             break;
 
         default:
-            console.log("Unknown Command! ");
+            console.log("Unknown Command !");
             break;
     }
 }
