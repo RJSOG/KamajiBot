@@ -1,4 +1,4 @@
-const { Command, err } = require('@sapphire/framework');
+const { Command } = require('@sapphire/framework');
 const Discord = require('discord.js');
 const axios = require('axios');
 
