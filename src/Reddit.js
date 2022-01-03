@@ -51,7 +51,6 @@ class Reddit {
             .setAuthor(elem.author)
             .addField('Score', String(elem.score), true);
             allEmbedsMsg.push(msgEmbed);
-            // msg.channel.send({embeds: [msgEmbed]});
         });
         msg.channel.send({embeds: allEmbedsMsg});
     }
